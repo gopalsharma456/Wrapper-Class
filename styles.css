@@ -1,0 +1,196 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}  
+body {
+  
+  background-color: rgb(8, 122, 101);
+}  
+
+button{
+  border-radius: 5px;
+}
+
+button:hover{
+  transform: scale(1.1);
+}
+
+
+.container {
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   padding: 25px;
+   row-gap: 40px;
+}   
+
+#userName {
+
+padding: 10px;  
+font-size: 14px;
+border: 1px solid #b9b8b8;
+border-radius: 40px 0 0 40px;
+}
+
+#showDetails {
+
+padding: 10px 20px;  
+font-size: 14px;
+background-color: #4CAF50;
+color: #fff;
+border: none;
+border-radius: 0 40px 40px 0;
+cursor: pointer;
+}
+
+
+
+
+
+.main h1 {
+  
+  margin-bottom: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  text-shadow: 4px -4px 5px rgba(0,0,0,0.3), 0px -4px 10px rgba(255,255,255,0.3);
+}  
+
+
+
+.card-profile {
+  background-color: rgb(78 116 141);
+  padding: 30px 50px 30px 60px;
+  max-width: 60vh;
+  max-height: max-content;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  border-radius: 80px;
+}  
+
+.card-body > .card-title {
+
+   color: whitesmoke;
+}   
+
+.card-text > p {
+
+color: whitesmoke;  
+}
+
+.card-body > .card-subHeading {
+
+   color: burlywood;
+}   
+
+.card-img {
+
+  padding-bottom: 10px;
+}  
+.card-img img {
+
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+}   
+
+
+.card-text p {
+
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+}  
+
+
+.card-text button {
+
+  padding: 10px 8px;
+  font-size: 14px;
+  font-weight: 700;
+  margin-top: 10px;
+  background-color: #f4b352;
+  border-radius: 6px;
+
+}  
+
+.card-body button a {
+
+  text-decoration: none;
+}  
+
+#reposInfo {
+
+  display: grid;
+  grid-template-columns: repeat(3,500px);
+  column-gap: 28px;
+  row-gap: 28px;
+  padding-top: 30px;
+  padding-left: 30px;
+  
+  
+}  
+
+@media (max-width: 1372px) {
+  #reposInfo {
+    grid-template-columns: repeat(2, 500px);
+  }  
+}  
+
+@media (max-width: 1000px) {
+  #reposInfo {
+    grid-template-columns: repeat(1, 600px);
+  }  
+}  
+
+@media (max-width: 600px) {
+  #reposInfo {
+    grid-template-columns: repeat(1, 400px);
+  }  
+}  
+
+
+#repoStars{
+  display: none;
+  margin-left: 10%;
+  width: 100%;
+  justify-content: space-between;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size: 14px;
+  padding-top: 30px;
+  padding-left: 60px;
+
+}  
+
+
+.project-card {
+  background-color: rgb(81 118 159);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+  max-height: fit-content;
+  padding: 20px;
+  border-radius: 20px;
+}  
+
+#repo-name {
+
+  font-size: 20px;
+  color: rgb(212, 160, 17);
+}  
+
+
+#viewRepo {
+
+  padding: 5px;
+  font-weight: 700;
+  background-color: #f4b352;
+  float: right;
+}  
+
+#viewRepo a {
+
+  text-decoration: none;
+
+}  
+

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github Finder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="main">
+            <h1>Github Profile Wrapper</h1>
+            <input type="text" placeholder="Enter Github Username" id="userName">
+            <button id="showDetails">Submit</button>
+        </div>
+        <div id="profileInfo">         
+
+        </div>
+
+        <div id="repoStars">
+            <span>
+              <h1>Sort By</h1>
+              <select name="sort" id="filter">
+                <option value="updated">Updated</option>
+                <option value="size">Size</option>
+                <option value="stars">Stars</option>
+                <option value="forks">Forks</option>
+              </select>
+            </span>
+
+        <div id="reposInfo">
+
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
